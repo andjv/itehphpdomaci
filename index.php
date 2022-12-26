@@ -38,7 +38,7 @@ if (isset($_COOKIE["korisnik"])){
                 <a href="index.php" class="nav-item nav-link">Početna</a>
                 <a href="dodaj.php" class="nav-item nav-link">Dodaj proizvod</a>
                 <a href="izmeni.php" class="nav-item nav-link">Izmeni proizvod</a>
-                <a href="obrisi.php" class="nav-item nav-link">Obrisi proizvod</a>
+                <a href="obrisi.php" class="nav-item nav-link">Obriši proizvod</a>
             </div>
         </div>  
         <label class="nav-item nav-link" style="color: white !important;"><?= $username;?></label>
@@ -67,7 +67,7 @@ if (isset($_COOKIE["korisnik"])){
                 </div>
                 <br>
                 <div class="col-md-4">
-                    <button class="BtnFormP" onclick="pretrazi()">Pretrazi</button>
+                    <button class="BtnFormP" onclick="pretrazi()">Pretraži</button>
                 </div>
                 </center>
             </div>
