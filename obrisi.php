@@ -72,11 +72,11 @@ if(isset($_POST['obrisi'])){
 
     function popuniProizvode() {
 
-        $.ajax({
+        $.ajax({/*
             url: 'popuniProizvode.php',
             success: function (data) {
             $("#proizvod").html(data);
-            }
+            */}
         });
     }
 
